@@ -1,0 +1,112 @@
+{
+  "artifact": "design_ethos_manifest",
+  "version": "1.2",
+  "ndh_external": true,
+  "non_activating": true,
+  "drift_neutral": true,
+  "lineage": {
+    "previous_versions": ["1.0", "1.1"],
+    "primary_md_source": "docs/ethos/design_ethos_v1_2.md"
+  },
+  "humane_commitments": {
+    "accessibility_for_all_neurotypes": true,
+    "dignity_first_rendering": true,
+    "humane_error_design": true,
+    "multi_modal_learning": true,
+    "expressive_clarity": true
+  },
+  "neurodiversity": {
+    "supports_autistic": true,
+    "supports_adhd": true,
+    "supports_dyslexic": true,
+    "supports_dyspraxic": true,
+    "supports_other_neurodivergent": true,
+    "cognitive_load_minimized": true,
+    "humane_pacing": true,
+    "non_punitive_errors": true
+  },
+  "expressive_grammar": {
+    "humane_expressive_grammar": true,
+    "humane_manifold_grammar": true,
+    "visual_grammar": true,
+    "palette_rules": true,
+    "non_activation_grammar": true,
+    "provenance_footers_required": true,
+    "stability_ecology_tags_required": true
+  },
+  "design_principles": {
+    "container_before_content": true,
+    "predictable_structure": true,
+    "no_punitive_complexity": true,
+    "respect_cognitive_diversity": true
+  },
+  "manifold_ethos": {
+    "humane_manifold_grammar": {
+      "avoid_gatekeeping": true,
+      "use_intuitive_metaphors": true,
+      "include_stability_tags": true,
+      "include_narrative_safe_explanations": true
+    },
+    "stability_ecology": {
+      "stability_tags_required": true,
+      "drift_neutrality_notes_required": true,
+      "humane_traversal_warnings_required": true,
+      "emotional_geometry_safety_notes_required": true
+    },
+    "manifold_pedagogy": {
+      "gentle_examples_first": true,
+      "avoid_abstraction_cliffs": true,
+      "use_multi_modal_anchors": true,
+      "stepwise_progression": true
+    }
+  },
+  "implementation_requirements": {
+    "provenance_footer_required": true,
+    "accessible_examples_required": true,
+    "avoid_inaccessible_jargon": true,
+    "clear_entry_points_required": true,
+    "respect_neurodiverse_pacing": true,
+    "ndh_external_only": true
+  },
+  "runtime_visibility": {
+    "enforce_humane_grammar": true,
+    "enforce_accessibility_commitments": true,
+    "enforce_non_activation_rules": true,
+    "enforce_drift_neutrality": true
+  }
+}
+---
+
+## 🧭 **Provenance Footer — Design Ethos Manifest JSON v1.2**
+
+```
+---
+Artifact: Design Ethos Manifest JSON v1.2
+Lane: Expressive-Layer • Machine-Readable • NDH-External
+
+Purpose:
+  Encode the humane, neurodiversity-aligned expressive grammar defined in
+  design_ethos_v1_2.md into a machine-readable manifest. Provides runtime-
+  visible constraints for humane manifold grammar, stability ecology tags,
+  narrative-safety rules, and accessibility commitments. Serves as the
+  enforcement layer for Manifold Atlas v1.0 and all future expressive-layer
+  artifacts.
+
+Non-Activation Clause:
+  This artifact is NDH-external and non-activating. It does not interact with
+  solver engines, guardrail invariants, spectral geometry cores, or sealed
+  layers.
+
+Version: 1.2
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 03 September 2026 — 14:46 IST
+Seal: [ D E S I G N • E T H O S • M A N I F E S T • v1_2 ]
+Hash: sha256:6d2f9a3c7b1e4f0a8c5d7e9b2f1c3a6d4e7b9f0c1a2d3e4f6b7c8a9d1e2f3b4
+---
+```
+
+---
+
+
