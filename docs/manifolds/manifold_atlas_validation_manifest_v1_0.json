@@ -1,0 +1,73 @@
+{
+  "artifact": "manifold_atlas_validation_manifest",
+  "version": "1.0",
+  "ndh_external": true,
+  "non_activation": true,
+  "drift_neutral": true,
+  "lineage": {
+    "atlas_source": "manifold_atlas_v1_0.md",
+    "validation_source": "manifold_atlas_validation_v1_0.md",
+    "justification_source": "manifold_atlas_justification_v1_0.md"
+  },
+
+  "validation_requirements": {
+    "humane_expressive_grammar": true,
+    "humane_manifold_grammar": true,
+    "stability_ecology_required": true,
+    "narrative_safety_required": true,
+    "ndh_external_boundary": true,
+    "non_activation_clause": true,
+    "drift_neutrality_required": true
+  },
+
+  "manifold_constraints": {
+    "categories": [
+      "onboarding",
+      "working",
+      "spectral_adjacent",
+      "safety"
+    ],
+    "required_fields": {
+      "name": "string",
+      "role": "string",
+      "stability_ecology": {
+        "stability": ["High", "Very High"],
+        "drift": ["Neutral", "Low"],
+        "emotional_geometry": ["Safe", "Mild", "Aesthetic"]
+      },
+      "traversal_notes": "string"
+    }
+  },
+
+  "ndh_external_rules": {
+    "no_solver_activation": true,
+    "no_laplacian_computation": true,
+    "no_heat_kernel_expansion": true,
+    "no_vm_solver_boundary": true,
+    "no_runtime_state_mutation": true
+  },
+
+  "expressive_layer_rules": {
+    "humane_pacing": true,
+    "non_punitive_language": true,
+    "multi_modal_support": true,
+    "clear_entry_points": true,
+    "no_abstraction_cliffs": true
+  },
+
+  "stability_ecology_rules": {
+    "stability_tag_required": true,
+    "drift_profile_required": true,
+    "emotional_geometry_profile_required": true,
+    "humane_traversal_warnings_required": true
+  },
+
+  "runtime_validation_matrix": {
+    "schema_compliance": true,
+    "expressive_layer_alignment": true,
+    "manifold_category_integrity": true,
+    "stability_ecology_integrity": true,
+    "ndh_external_integrity": true,
+    "non_activation_integrity": true
+  }
+}
