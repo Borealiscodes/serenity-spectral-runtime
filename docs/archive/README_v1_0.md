@@ -134,3 +134,17 @@ All artifacts include non‑activating provenance footers for traceability.
 
 ---
 
+# **ARCHIVAL PROVENANCE FOOTER — README v1.0**  
+**Archived:** 03 September 2026 — Dublin, Ireland  
+**Artifact:** `README_v1_0.md`  
+**Archive Path:** `serenity-spectral-runtime/docs/archive/README_v1_0.md`  
+**Reason:** Superseded by README v2.0, which provides an accessible, neurodiversity‑aligned overview while preserving technical clarity.  
+**Maintainer:** Borealis S. Hedling  
+**Compiler:** Microsoft Copilot  
+**Status:** Historical reference; no longer the primary onboarding document.  
+**Notes:** Retained for technical fidelity, pipeline clarity, and historical traceability.  
+**Hash:** `sha256:9d3c9f7a1d2e8c6f0a1e4b9c7d3a8f1b2c4d6e7f8a9b0c1d2e3f4a5b6c7d8`
+
+---
+
+
