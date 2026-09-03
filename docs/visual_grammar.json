@@ -1,0 +1,61 @@
+{
+  "serenity_spectral_runtime": {
+    "version": "v1.0",
+    "visual_grammar": {
+      "identity": {
+        "name": "Serenity-Spectral-Runtime",
+        "theme": "spectral geometry, drift-neutral, solver-safe",
+        "symbol": "serenity_emblem",
+        "non_activation": true
+      },
+      "color_logic": [
+        "spectral_green",
+        "celestial_blue",
+        "violet_boundary"
+      ],
+      "structure": [
+        "lean/",
+        "schemas/",
+        "python/",
+        "rust/",
+        "web/",
+        "docs/",
+        "manifests/"
+      ],
+      "naming_grammar": {
+        "case": "lowercase",
+        "separator": "hyphen",
+        "examples": [
+          "manifold_types.lean",
+          "envelope_schema.json",
+          "spectral_solver.py",
+          "main.rs",
+          "serenity_emblem_core_geometry.html",
+          "release_manifest_v1_0.md"
+        ]
+      },
+      "commit_grammar": {
+        "style": "gitmoji",
+        "prefixes": [
+          "docs",
+          "config",
+          "scaffold",
+          "runtime",
+          "guardrail",
+          "design",
+          "add",
+          "refactor",
+          "release",
+          "test"
+        ],
+        "examples": [
+          "📝 docs: add Serenity-Spectral-Runtime README (v1.0)",
+          "🔧 config: add .gitignore for runtime boundaries",
+          "📁 scaffold: create initial folder structure",
+          "✨ runtime: add FEniCS Laplacian solver engine",
+          "🔒 guardrail: implement Rust invariant checker"
+        ]
+      }
+    }
+  }
+}
