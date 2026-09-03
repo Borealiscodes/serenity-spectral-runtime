@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity-Spectral-Runtime Envelope Schema",
+  "version": "1.0",
+  "description": "Canonical container definition for all spectral-geometry payloads. Ethos-aligned, drift-neutral, and solver/renderer safe.",
+  "type": "object",
+
+  "required": ["id", "type", "version", "metadata", "payload"],
+
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the artifact. Must be stable and human-readable."
+    },
+
+    "type": {
+      "type": "string",
+      "enum": [
+        "solver_payload",
+        "renderer_payload",
+        "manifold_descriptor",
+        "emblem_geometry",
+        "spectral_density_map"
+      ],
+      "description": "Artifact class. Determines downstream validation and runtime behavior."
+    },
+
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version of the artifact."
+    },
+
+    "metadata": {
+      "type": "object",
+      "description": "Non-activating descriptive metadata. Must follow dignity-first rendering.",
+      "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "author": { "type": "string" },
+        "created": { "type": "string", "format": "date-time" },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["name", "description"]
+    },
+
+    "payload": {
+      "type": "object",
+      "description": "The spectral-geometry content. Structure varies by artifact type.",
+      "properties": {
+        "manifold": {
+          "type": "string",
+          "description": "Reference to a manifold descriptor artifact."
+        },
+        "spectral_density": {
+          "type": "object",
+          "description": "Field-based spectral density definition.",
+          "properties": {
+            "function": { "type": "string" },
+            "parameters": {
+              "type": "object",
+              "additionalProperties": { "type": ["number", "string"] }
+            }
+          }
+        },
+        "boundary_conditions": {
+          "type": "object",
+          "description": "Boundary conditions for solver payloads.",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["dirichlet", "neumann", "mixed"]
+            },
+            "value": { "type": ["number", "string"] }
+          }
+        },
+        "renderer": {
+          "type": "object",
+          "description": "Renderer-specific geometry and palette references.",
+          "properties": {
+            "palette": { "type": "string" },
+            "symmetry": { "type": "string" },
+            "geometry": { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "provenance": {
+      "type": "object",
+      "description": "Dignity-first provenance footer metadata.",
+      "properties": {
+        "generated": { "type": "string", "format": "date-time" },
+        "compiler": { "type": "string" },
+        "notes": { "type": "string" },
+        "hash": { "type": "string" }
+      }
+    }
+  }
+}
