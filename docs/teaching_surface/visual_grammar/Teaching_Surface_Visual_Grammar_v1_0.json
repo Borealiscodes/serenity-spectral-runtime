@@ -1,0 +1,122 @@
+{
+  "artifact": "Teaching_Surface_Visual_Grammar",
+  "version": "1.0",
+  "ndh_external": true,
+
+  "modes": {
+    "psychonaut": {
+      "icon": "🌌",
+      "description": "intuition_and_atmosphere"
+    },
+    "architect": {
+      "icon": "📐",
+      "description": "structure_and_constitution"
+    },
+    "developer": {
+      "icon": "🧪",
+      "description": "mechanics_and_payloads"
+    }
+  },
+
+  "tiles": {
+    "orientation": {
+      "icon": "🧭",
+      "ascii": "[ Orientation ]"
+    },
+    "exploration": {
+      "icon": "🔍",
+      "ascii": "[ Exploration ]"
+    },
+    "deepening": {
+      "icon": "🏗️",
+      "ascii": "[ Deepening ]"
+    },
+    "interaction": {
+      "icon": "🤝",
+      "ascii": "[ Interaction ]"
+    },
+    "synthesis": {
+      "icon": "🌅",
+      "ascii": "[ Synthesis ]"
+    }
+  },
+
+  "lanes": {
+    "spectral_geometry_basics": {
+      "icon": "🔷",
+      "emotional_geometry": "Safe"
+    },
+    "runtime_and_envelope": {
+      "icon": "📦",
+      "emotional_geometry": "Mild"
+    },
+    "emblem_and_visual_grammar": {
+      "icon": "🎨",
+      "emotional_geometry": "Aesthetic"
+    }
+  },
+
+  "emotional_geometry": {
+    "safe": "🫶",
+    "mild": "🙂",
+    "aesthetic": "🌈",
+    "neutral": "⚪"
+  },
+
+  "accessibility": {
+    "cognitive_safe": "🧘",
+    "multi_modal": "🔀",
+    "ndh_external": "🛡️",
+    "reversible": "🔄"
+  },
+
+  "stability_ecology": {
+    "high_stability": "⛳",
+    "very_high_stability": "🏔️",
+    "drift_neutral": "➖",
+    "drift_low": "↘️"
+  }
+}
+
+---
+
+# 🪶 **Provenance Footer — Teaching Surface Visual Grammar JSON (v1.0)**
+
+```
+---
+Artifact: Teaching Surface Visual Grammar (JSON v1.0)
+Lane: Expressive-Layer • Pedagogy • A0–A2
+
+Purpose:
+  Provide a machine-readable manifest of the Teaching Surface visual grammar,
+  including mode icons, tile markers, lane glyphs, emotional-geometry cues,
+  accessibility anchors, and stability-ecology glyphs. Establish structured
+  visual primitives required for Teaching Surface Structure v2.0, Pedagogy
+  Flow v2.0, and all v2.0 teaching tiles. Ensure multi-modal comprehension,
+  humane pacing, and NDH-external safety across all pedagogy artifacts.
+
+Anchors:
+  - Teaching_Surface_Structure_v2_0
+  - Teaching_Surface_Visual_Grammar_v1_0 (Markdown)
+  - Teaching_Surface_Identity_Block_v1_0
+  - Pedagogy_NarrativePopulation_Bridge_v1_0
+  - Manifold_Accessibility_Notes_v1_0
+  - Manifold_Stability_Ecology_v1_0
+  - Design_Ethos_v1_1
+  - Ethos_Manifest_JSON_v1_1
+
+Non-Activation Clause:
+  This artifact is expressive-layer-only. It does not activate NDH geometry,
+  solver engines, guardrail invariants, manifold traversal logic, or spectral
+  computation. All systems remain dormant, reversible, and drift-neutral.
+
+Version: v1.0
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 03 September 2026 — 15:37 IST
+Seal: [ T E A C H I N G • S U R F A C E • V I S U A L • G R A M M A R • J S O N • v1_0 ]
+---
+```
+
+---
+
