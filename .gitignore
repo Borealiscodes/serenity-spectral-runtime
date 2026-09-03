@@ -1,0 +1,61 @@
+# **`.gitignore` — Serenity‑Spectral‑Runtime (v1.0)**
+
+```
+# -------------------------
+# Python / FEniCS Runtime
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+build/
+dist/
+
+# FEniCS / PETSc / SLEPc solver outputs
+*.h5
+*.xml
+*.xdmf
+*.checkpoint
+*.log
+
+# Solver-generated data
+solver_output/
+runtime_cache/
+payloads/
+payload.json
+payload_test_*.json
+
+# -------------------------
+# Rust Guardrail Layer
+# -------------------------
+target/
+Cargo.lock
+
+# -------------------------
+# Lean (Manifold Types)
+# -------------------------
+lake-packages/
+build/
+*.olean
+
+# -------------------------
+# Node / Web Renderer
+# -------------------------
+node_modules/
+*.cache
+dist/
+web/assets/generated/
+
+# -------------------------
+# System / Editor Noise
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+```
+
+---
