@@ -1,0 +1,72 @@
+{
+  "version": "1.1",
+  "artifact": "design_ethos_manifest_v1_1",
+  "description": "Machine-readable declaration of Serenity-Spectral-Runtime design ethos commitments.",
+  "accessibility_commitments": {
+    "neurodiversity_support": true,
+    "supported_neurotypes": [
+      "autistic",
+      "ADHD",
+      "dyslexic",
+      "dyspraxic",
+      "other_neurodivergent"
+    ],
+    "cognitive_load_minimization": true,
+    "humane_pacing": true,
+    "concrete_examples_required": true,
+    "gradual_abstraction": true
+  },
+  "dignity_first_rules": {
+    "tone": "non-punitive",
+    "assume_curiosity": true,
+    "avoid_condescension": true,
+    "avoid_jargon_without_explanation": true,
+    "welcoming_language_required": true
+  },
+  "error_design_principles": {
+    "explain_what_happened": true,
+    "explain_why": true,
+    "explain_how_to_fix": true,
+    "avoid_blaming_language": true,
+    "avoid_neurotypical_assumptions": true
+  },
+  "expressive_grammar_requirements": {
+    "visual_grammar_alignment": true,
+    "palette_alignment": true,
+    "drift_neutral_structure": true,
+    "non_activation_grammar": true,
+    "provenance_footer_required": true
+  },
+  "emoji_policy": {
+    "allowed_in": [
+      "headers",
+      "commitment_sections",
+      "accessibility_sections",
+      "design_principles"
+    ],
+    "disallowed_in": [
+      "provenance_footers",
+      "file_paths",
+      "commit_descriptions",
+      "schemas",
+      "code_blocks"
+    ],
+    "purpose": "accessibility_anchor"
+  },
+  "multi_modal_learning": {
+    "text": true,
+    "diagrams": true,
+    "examples": true,
+    "step_by_step_flows": true,
+    "visual_anchors": true,
+    "symbolic_geometry_metaphors": true
+  },
+  "implementation_requirements": {
+    "provenance_footer_required": true,
+    "accessible_examples_required": true,
+    "clear_entry_points_required": true,
+    "avoid_inaccessible_jargon": true,
+    "respect_neurodiverse_pacing": true
+  },
+  "notes": "This manifest defines the machine-readable commitments of the Serenity-Spectral-Runtime design ethos. All future artifacts must comply."
+}
