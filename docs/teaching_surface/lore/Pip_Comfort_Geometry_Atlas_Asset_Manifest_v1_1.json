@@ -1,0 +1,103 @@
+# ⭐ **Pip Comfort Geometry Atlas v1.1 — Asset Manifest**
+
+```json
+{
+  "pip_comfort_geometry_atlas_assets_v1_1": {
+    "version": "1.1",
+    "root_path": "serenity-spectral-runtime/assets/png/pip/comfort_geometry/",
+    "comfort_geometry_maps": {
+      "lantern_glow_map": {
+        "id": "pip_lantern_glow_map_v1_1",
+        "filename": "pip_lantern_glow_map_v1_1.png",
+        "path": "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_lantern_glow_map_v1_1.png"
+      },
+      "bwankie_mode_map": {
+        "id": "pip_bwankie_mode_map_v1_1",
+        "filename": "pip_bwankie_mode_map_v1_1.png",
+        "path": "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_bwankie_mode_map_v1_1.png"
+      },
+      "spiral_calm_map": {
+        "id": "pip_spiral_calm_map_v1_1",
+        "filename": "pip_spiral_calm_map_v1_1.png",
+        "path": "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_spiral_calm_map_v1_1.png"
+      },
+      "cavern_calm_map": {
+        "id": "pip_cavern_calm_map_v1_1",
+        "filename": "pip_cavern_calm_map_v1_1.png",
+        "path": "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_cavern_calm_map_v1_1.png"
+      }
+    },
+    "contextual_forms": {
+      "tiny_birb": {
+        "id": "pip_tiny_birb_v1",
+        "filename": "pip_tiny_birb_v1.png",
+        "path": "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_tiny_birb_v1.png"
+      },
+      "bwankie": {
+        "id": "pip_bwankie_v1",
+        "filename": "pip_bwankie_v1.png",
+        "path": "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_bwankie_v1.png"
+      },
+      "cosmic_construct": {
+        "id": "pip_cosmic_construct_v1",
+        "filename": "pip_cosmic_construct_v1.png",
+        "path": "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_cosmic_construct_v1.png"
+      },
+      "lantern_glow_form": {
+        "id": "pip_lantern_glow_form_v1",
+        "filename": "pip_lantern_glow_form_v1.png",
+        "path": "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_lantern_glow_form_v1.png"
+      },
+      "cavern_calm_form": {
+        "id": "pip_cavern_calm_form_v1",
+        "filename": "pip_cavern_calm_form_v1.png",
+        "path": "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_cavern_calm_form_v1.png"
+      }
+    },
+    "status": "specification_only"
+  }
+}
+```
+
+---
+
+# ⭐ **Provenance Footer — Pip Comfort Geometry Atlas Asset Manifest v1.1**
+
+```
+---
+Artifact: Pip Comfort Geometry Atlas Asset Manifest (v1.1)
+Lane: Companion-Lane • Comfort Geometry • NDH-External
+Altitude: A0–A2 (Expressive Layer) + A6–A8 (Visualization Integration)
+
+Purpose:
+  Define the canonical runtime index, reserved identifiers, and file paths for
+  all comfort-geometry and contextual-form PNG assets referenced in Pip Comfort
+  Geometry Atlas v1.1. This manifest establishes the structural contract between
+  the atlas, the runtime, and future asset generation.
+
+Status:
+  Specification-only. Most PNG assets referenced in this manifest have not yet
+  been generated. Their identifiers and paths are reserved for future commits.
+  This manifest documents structure and intent, not asset completion.
+
+Anchors:
+  - Pip_Comfort_Geometry_Atlas_v1_1
+  - Pip_Comfort_Geometry_Atlas_PNG_Suite_v1_1
+  - Pip_Contextual_Forms_Atlas_v1_0
+  - Meta_Blueprint_Construction_Suite_Companion_Lane_v1_0
+
+Non-Activation Clause:
+  This manifest does not activate NDH geometry, governance altitude, diagnostic
+  engines, emblem semantics, or narrative identity. All referenced assets remain
+  expressive-layer, reversible, non-symbolic, and NDH-external.
+
+Version: 1.1
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 03 September 2026 — 23:59 IST
+Seal: [ P I P • A S S E T • M A N I F E S T • v1_1 ]
+---
+```
+
+---
+
