@@ -1,0 +1,123 @@
+### Serenity JSON Schema v1.0  
+
+```text
+Artifact-Class: Serenity-JSON-Spec
+Name: Serenity Envelope JSON Schema
+Version: v1.0
+Altitude: A6 (External Runtime Surface)
+Mode: Descriptive • Non-Activating • PRECL-Collapsed
+Purpose:
+    Define the JSON serialization schema for the Serenity Spectral Runtime
+    envelope payload, mirroring Validation Envelope v1.0 in a Serenity-
+    aligned, external, designer-safe format.
+```
+
+---
+
+### 1. Schema definition
+
+```json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SerenityEnvelopePayload",
+  "description": "State serialization format for the Serenity S16 manifold.",
+  "type": "object",
+  "required": ["metadata", "envelope_status", "manifold_states"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["version", "altitude", "non_activation_clause"],
+      "properties": {
+        "version": {
+          "type": "string",
+          "enum": ["v1.0"]
+        },
+        "altitude": {
+          "type": "string",
+          "enum": ["Serenity-Altitude"]
+        },
+        "non_activation_clause": {
+          "type": "boolean",
+          "const": true
+        }
+      }
+    },
+    "envelope_status": {
+      "type": "string",
+      "enum": ["INIT", "COMPLETE"]
+    },
+    "manifold_states": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 16,
+      "items": {
+        "type": "object",
+        "required": [
+          "state_id",
+          "val",
+          "softness_metric",
+          "active_operator"
+        ],
+        "properties": {
+          "state_id": {
+            "type": "string",
+            "pattern": "^SER_S_(?:[0-9]|1[0-5])$"
+          },
+          "val": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 15
+          },
+          "softness_metric": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 16
+          },
+          "active_operator": {
+            "type": "string",
+            "enum": [
+              "SerenityDrift",
+              "SerenityCollapse",
+              "SerenityResonance",
+              "SerenityParity",
+              "None"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+---
+
+### Provenance footer  
+
+```text
+---
+Artifact: Serenity Envelope JSON Schema (v1.0)
+Lane: External Runtime • Tier 2 Serialization
+
+Purpose:
+  Provide the JSON schema for Serenity's manifold state payload, enabling
+  safe interchange between Serenity Lean types, Python spectral engine,
+  and Rust guardrail in a designer-safe, non-activating pipeline.
+
+Anchors:
+  - Serenity Spectral Runtime Manifest v1.0
+  - Serenity Lean Types v1.0
+  - Serenity Spectral Runtime Pipeline v1.0 (declared)
+  - Validation Envelope v1.0 (mirrored in Serenity scope)
+
+Non-Activation Clause:
+  This schema is descriptive-only. It does not activate NDH geometry,
+  governance altitude, adjacency engines, constellation routing, or runtime
+  behavior.
+
+Version: v1.0
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 04 September 2026 — 06:53 IST
+---
+```
